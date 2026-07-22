@@ -68,7 +68,7 @@ export function Testimonials() {
                     <div className="flex-1 text-center md:text-left">
                       <Quote className="text-[#1976D2] w-8 h-8 mb-4 mx-auto md:mx-0" />
                       <p className="text-lg md:text-xl text-slate-700 leading-relaxed mb-6 font-medium">
-                        "{testimonials[currentIndex].quote}"
+                        &quot;{testimonials[currentIndex].quote}&quot;
                       </p>
                       <h4 className="font-bold text-slate-900 text-lg">
                         {testimonials[currentIndex].company}

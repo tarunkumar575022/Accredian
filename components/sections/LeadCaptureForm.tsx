@@ -4,7 +4,6 @@ import { useState, useEffect } from "react";
 import { X, CheckCircle2 } from "lucide-react";
 import { Button } from "../ui/Button";
 import { domains } from "@/lib/data/domains";
-import { cn } from "@/lib/utils/cn";
 
 export function LeadCaptureForm() {
   const [isOpen, setIsOpen] = useState(false);
@@ -79,7 +78,7 @@ export function LeadCaptureForm() {
               </div>
               <h3 className="text-xl font-bold text-slate-900 mb-2">Request Received!</h3>
               <p className="text-slate-600 text-sm max-w-xs mx-auto p-4 bg-slate-50 border rounded-xl">
-                Thank you for your interest. One of our learning consultants will call you shortly to discuss your team's needs.
+                Thank you for your interest. One of our learning consultants will call you shortly to discuss your team&apos;s needs.
               </p>
             </div>
           ) : (

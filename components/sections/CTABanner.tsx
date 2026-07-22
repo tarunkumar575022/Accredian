@@ -24,9 +24,9 @@ export function CTABanner() {
               <MessageCircle className="text-white w-8 h-8" />
             </div>
             <div>
-              <h2 className="text-2xl md:text-3xl font-bold text-white mb-2">
-                Ready to Architect Your Team's Future?
-              </h2>
+              <h2 className="text-3xl md:text-4xl font-bold text-white mb-4 leading-tight">
+              Ready to Architect Your Team&apos;s Future?
+            </h2>
               <p className="text-blue-100 text-lg">
                 Connect with our enterprise strategists to map out your transformation.
               </p>
